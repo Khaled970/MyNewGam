@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#38ded0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+h1{
+    text-shadow: 5px 5px 5px rgb(240, 21, 182);
+    font-family: 'Fredoka One', cursive;
+    font-size: 72px;
+    color: rgb(19, 109, 88);
+
+}
+#pong{
+    
+    box-shadow: 5px 5px #d00c0c;
+    border: 5px solid rgb(28, 21, 226);
+    border-radius: 40px ;
+}
+
+.screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
